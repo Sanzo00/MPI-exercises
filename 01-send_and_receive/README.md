@@ -15,16 +15,16 @@ MPI_Recv(void* data, int count, MPI_Datatype datatype, int source, int tag, MPI_
 
 | MPI datatype           | C equivalent           |
 | ---------------------- | ---------------------- |
-| MPI_SHORT              | short int              |
-| MPI_INT                | int                    |
-| MPI_LONG               | long int               |
-| MPI_LONG_LONG          | long long int          |
+| MPI_CHAR               | char                   |    
 | MPI_UNSIGNED_CHAR      | unsigned char          |
+| MPI_SHORT              | short int              |
 | MPI_UNSIGNED_SHORT     | unsigned short int     |
+| MPI_INT                | int                    |
 | MPI_UNSIGNED           | unsigned int           |
+| MPI_LONG               | long int               |
 | MPI_UNSIGNED_LONG      | unsigned long int      |
+| MPI_LONG_LONG          | long long int          |
 | MPI_UNSIGNED_LONG_LONG | unsigned long long int |
 | MPI_FLOAT              | float                  |
 | MPI_DOUBLE             | double                 |
 | MPI_LONG_DOUBLE        | long double            |
-| MPI_BYTE               | char                   |    
